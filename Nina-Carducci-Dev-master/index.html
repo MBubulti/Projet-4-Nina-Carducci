@@ -2,9 +2,23 @@
 <html lang="fr">
   <head>
     <title>Nina Carducci Photographie</title>
-    <meta name="description" content="Site internet de la photographe Nina Carducci, présentant ses prestations et ses photographies">
+    <meta name="description" content="Site internet de la photographe Nina Carducci, basée à Bordeaux,  retrouvez ici ses clichés et les tarifs de ses prestations">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="robots" content="index, nofollow">
+
+    <!--Open Graph-->
+    <meta property="og:title" content="Bienvenue sur le site de Nina Card Photographie">
+    <meta property="og:description" content="Découvrez sur cette page mes prestations et quelques photographies">
+    <meta property="og:image" content="https://nina-carducci.github.io/assets/images/nina.png">
+    <meta property="og:url" content="https://nina-carducci.github.io/">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="fr_FR">
+    <!--Twitter Cards-->
+    <meta name="twitter:title" content="Bienvenue sur le site de Nina Card Photographie">
+    <meta name="twitter:description" content="Découvrez sur cette page mes prestations et quelques photographies.">
+    <meta name="twitter:image" content="https://nina-carducci.github.io/assets/images/nina.png">
+    <meta name="twitter:site" content="@NinaCarducci">
+
     <link rel="stylesheet" href="./assets/bootstrap/bootstrap.css" />
     <link rel="stylesheet" href="./assets/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -20,6 +34,29 @@
       crossorigin="anonymous" defer></script>
     <script src="./assets/maugallery.js" defer></script>
     <script src="./assets/scripts.js" defer></script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Nina Carducci Photographie",
+        "image": "https://nina-carducci.github.io/assets/images/nina.png", 
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "68 avenue Alsace-Lorraine",
+            "addressLocality": "Bordeaux",
+            "postalCode": "33200",
+            "addressCountry": "FR"
+        },
+        "url": "https://nina-carducci.github.io/",
+        "telephone": "+33 5 56 67 78 89",
+        "openingHours": "Lundi à Vendredi 10h00-19h00",
+        "sameAs": [
+            "https://www.x.com/NinaCarducci",
+            "https://www.facebook.com/ninacarducciphotographe",
+            "https://www.instagram.com/ninacarducci"
+        ]
+    }
+    </script>
   </head>
   <body>
     <header>
@@ -135,7 +172,7 @@
               data-gallery-tag="Entreprises"
               class="gallery-item"
               src="./assets/images/gallery/entreprise/ali-morshedlou-portrait.jpg"
-			        alt="portrait photo d'un homme élégamment habillé"/>
+			        alt="Shooting d'un homme élégamment habillé"/>
             <img
               data-gallery-tag="Entreprises"
               class="gallery-item"
@@ -145,7 +182,7 @@
               data-gallery-tag="Mariages"
               class="gallery-item"
               src="./assets/images/gallery/mariage/hannah-busing-wedding.jpg"
-			        alt="Photo de deux paires de mains qui se tiennent" />
+			        alt="Photo des mains de deux mariés" />
             <img
               data-gallery-tag="Portrait"
               class="gallery-item"
@@ -195,8 +232,7 @@
             <div class="service__description">
               <h3>Shooting photo</h3>
               <p>Pour capturer vos moments les plus précieux et garder un
-                souvenir impérissable. Je me déplace en Île-de-France pour
-                réaliser vos photos</p>
+                souvenir impérissable. Basée à Bordeaux, je suis mobile et  peut me déplacer en Ile de France pour réaliser vos photos</p>
             </div>
             <div class="service__price">
               <p>350€/demi journée</p>
