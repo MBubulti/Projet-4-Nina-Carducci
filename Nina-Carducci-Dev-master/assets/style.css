@@ -109,7 +109,7 @@ nav a {
   font-size: 1rem;
 }
 .visually-hidden {
-  display: none;
+ display: none;
 }
 #contact .container,
 .mg-next,
@@ -238,6 +238,19 @@ input[type="submit"] {
 .form-container h2 {
   font-size: calc(1.3rem + 0.6vw);
 }
+header img{
+  object-fit:contain;
+}
+#about img{
+  height: auto;
+}
+#carouselExampleIndicators img{
+  height: auto;
+}
+footer img{
+  object-fit: contain;
+}
+
 @media all and (max-width: 1180px) {
   .picture {
     flex: 2;
